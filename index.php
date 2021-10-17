@@ -25,7 +25,10 @@
         echo "<h1>My Name Is: $name </h1>";
     ?>
 
-    <button class="btn btn-dark">CLICK ME</button>
+    <button type="button" class="btn btn-dark">CLICK ME</button>
+    <button type="button" class="btn btn-primary">CLICK ME</button>
+    <button type="button" class="btn btn-success">CLICK ME</button>
+    <a href="https://www.heruko.com " target="_blank" class="btn btn-danger">Heroku.com</a>
     <?php
     require 'includes/footer.php' 
     ?>
